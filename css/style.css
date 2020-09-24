@@ -13,21 +13,92 @@
   display: block;
 }
 }
-
-
-/* STYLE */
-#section-1 .container{
-  background-image: url("../img/hero-bg.jpg");
+.list{
+  list-style: none;
+}
+.list li{
+    display: inline-block;
+}
+.list a{
+  text-decoration: none;
+  text-transform:uppercase;
+  font-size: 12px;
+  padding: 0 10px 0 0;
+  color: black;
 }
 .container-grid div{
-  background-color: red;
+  /* background-color: red; */
   border: 1px solid black;
 }
+.style-space{
+  margin-bottom: 20px;
+}
+/* STYLE */
+    /* sezione 1 */
+#section-1 .container{
+  background-image: url("../img/hero-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  position: relative;
+  text-align: center
+}
+#section-1 .central{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+#section-1 span{
+  display: block;
+}
+#section-1 h1{
+  font-size: 40px;
+}
+#section-1 h1,
+#section-1 span{
+  color: white;;
+}
+    /* section 2 */
+#section-2 .left,
+#section-2 .right{
+  background-color: #fafafa;
+  text-align: center;
+}
+#section-2 img{
+  height: 300px;
+}
+
     /* section 3 */
-#section-3 .container{
+#section-3{
+  height: 400px;
   background-image: url("../img/helbiz-banner.jpg");
+  background-size:cover;
+  background-position: left;
 }
 #section-3 .left,
 #section-3 .right{
-  margin-top: 100px;
+  margin-top: 500px;
+  text-align: left;
+}
+#section-3 .central img{
+  margin-top: 75px;
+  height: 600px;
+}
+#section-3 .container{
+  text-align: center;
+}
+
+/* section 5 */
+#section-5{
+  height: 400px;
+  background-image: url("../img/social-banner.jpg");
+}
+#section-5 .central{
+  background-color: white;
+}
+/* footer */
+footer div{
+  background-color: red;
+  border: 1px solid black;
 }
