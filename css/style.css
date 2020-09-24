@@ -3,7 +3,11 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+h1,
+h2,
+h3{
+  margin-top: 5%;
+}
 /* UTILITIES */
 .mobile{
   display: none;
@@ -25,10 +29,6 @@
   font-size: 12px;
   padding: 0 10px 0 0;
   color: black;
-}
-.container-grid div{
-  /* background-color: red; */
-  border: 1px solid black;
 }
 .style-space{
   margin-bottom: 20px;
@@ -66,7 +66,7 @@
   text-align: center;
 }
 #section-2 img{
-  height: 300px;
+  height: 500px;
 }
 
     /* section 3 */
@@ -88,7 +88,52 @@
 #section-3 .container{
   text-align: center;
 }
-
+    /* section 4 */
+#section-4 .up{
+  background-image: url("../img/scooter-bg.jpg");
+  background-size: cover;
+  background-position: right;
+}
+#section-4 .container-grid{
+  padding: 0;
+}
+#section-4 .bot-left{
+  background-color: #303f4d;
+  position: relative;
+}
+#section-4 .bot-right{
+  background-image: url("../img/cities.jpg");
+  background-size: cover;
+}
+#section-4 > div > div{
+  height: 400px;
+}
+#section-4 .up{
+  position: relative;
+}
+#section-4 .up .text:first-child{
+  position: absolute;
+  top: 50%;
+  right: 10%;
+  transform: translateY(-50%);
+}
+#section-4 h3{
+  font-size: 30px;
+}
+.text{
+  color: white;
+  text-align: center;
+}
+.text a{
+  color: white;
+}
+#section-4 .bot-left img{
+  height: 270px;
+  position: absolute;
+  bottom:0;
+  left: 50%;
+  transform: translateX(-50%);
+}
 /* section 5 */
 #section-5{
   height: 400px;
@@ -97,6 +142,7 @@
 #section-5 .central{
   background-color: white;
 }
+
 /* footer */
 footer div{
   background-color: red;
