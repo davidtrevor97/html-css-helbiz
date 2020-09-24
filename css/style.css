@@ -62,12 +62,16 @@ h3{
     /* section 2 */
 #section-2 .left,
 #section-2 .right{
-  background-color: #fafafa;
   text-align: center;
 }
 #section-2 img{
   height: 500px;
 }
+#section-2 .box{
+  background-color:#fafafa;
+  padding: 10px;
+}
+
 
     /* section 3 */
 #section-3{
@@ -144,11 +148,15 @@ h3{
 #section-5{
   height: 400px;
   background-image: url("../img/social-banner.jpg");
+  background-size: cover;
 }
 #section-5 .central{
   background-color: white;
 }
-
+#section-5 .central{
+  padding: 20px;
+  text-align: center;
+}
 /* footer */
 footer div{
   background-color: red;
